@@ -1,0 +1,12 @@
+[package]
+name = "fdrg"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Wraps fd-find and ripgrep to search files by name and content"
+repository = "https://github.com/jeffs/fdrg"
+
+[workspace.lints.clippy]
+pedantic = "deny"
+
+[dependencies]
