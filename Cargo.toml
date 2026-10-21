@@ -5,6 +5,7 @@ edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "Wraps fd-find and ripgrep to search files by name and content"
 repository = "https://github.com/jeffs/fdrg"
+rust-version = "1.99.1"
 
 [workspace.lints.clippy]
 pedantic = "deny"
